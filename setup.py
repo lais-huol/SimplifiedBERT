@@ -2,7 +2,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = "0.0.2"
+version = "0.0.3"
 
 if len(sys.argv) >= 3 and sys.argv[1] == "validate_tag":
     if sys.argv[2] != version:
